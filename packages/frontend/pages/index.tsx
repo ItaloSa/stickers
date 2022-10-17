@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 
 import Navbar from '../components/Navbar'
+import ProfileContainer from '../containers/Profile'
 
 const Home: NextPage = () => {
   return (
@@ -11,9 +12,10 @@ const Home: NextPage = () => {
         <meta name="description" content="Some description" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navbar></Navbar>
+      
+      <Navbar/>
+      <ProfileContainer />
 
-      <h1>Stickers home</h1>
     </div>
   )
 }
