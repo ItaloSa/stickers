@@ -10,12 +10,14 @@
   },
   "dependencies": {
     "bootstrap": "^5.2.2",
+    "fabric": "^5.2.4",
     "next": "12.3.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "styled-components": "^5.3.6"
   },
   "devDependencies": {
+    "@types/fabric": "^4.5.12",
     "@types/node": "18.11.0",
     "@types/react": "18.0.21",
     "@types/react-dom": "18.0.6",
